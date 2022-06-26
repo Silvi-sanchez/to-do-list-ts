@@ -1,0 +1,145 @@
+.title {
+  background-color: #5c05b8;
+  text-align: center;
+  color: white;
+}
+
+.row {
+  align-items: center;
+  margin-top: 1em;
+  width: 50%;
+  padding: 1em;
+  box-shadow: 2px 5px 7px rgb(112, 112, 112);
+}
+
+.container-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.button-color{
+  background-color: #5c05b8;
+  color: white;
+  margin-top: 1em;
+  width: 15%;
+}
+
+.button-color:hover{
+  color: white;
+  background-color: #701fc7;
+}
+
+.buttons-color:hover{
+  color: grey;
+  border: none;
+}
+
+.button-color:active{
+  outline: none;
+  border: transparent;
+  box-shadow: none;
+}
+
+.me-2{
+  text-align-last: start;
+}
+
+.form-center{
+  text-align: center;
+}
+
+.buttons-color{
+  border: none;
+  font-size: large;
+  color: rgb(80, 80, 80);
+}
+
+.card-list{
+  margin-top: 3em;
+  align-items: center;
+  border: none;
+}
+
+.icon{
+  color: #5c05b8;
+  margin-right: 2em;
+  font-size: large;
+}
+
+.rutas{
+  float: right;
+  text-transform: none;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.text-us{
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+}
+
+.text-us:hover{
+  color: rgba(92, 89, 99, 0.858);
+  text-decoration: none;
+}
+
+.link:hover{
+  color: rgba(255, 255, 255, 0.512);
+  text-decoration: none;
+}
+
+.card-login, .card-register{
+  align-items: center;
+  padding: 5%;
+  background-color: #8a2be221;
+  height: 100vh;
+}
+
+.button-sub{
+  border: none;
+  background-color: #5c05b8;
+  color: white;
+}
+
+.botonOut{
+  border: none;
+  background-color: #7c48b3;
+  color: white;
+}
+
+.botonOut:hover{
+  background-color: #531f8a;
+  color: white;
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+  .row{
+    width: 80%;
+  }
+  .button-color{
+    width: 15%;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 425px){
+  .row{
+    width: 72%;
+  }
+  .button-color{
+    width: 22%;
+  }
+}
+
+@media (max-width: 426px) and (min-width: 280px){
+  .row{
+    width: 90%;
+  }
+  .button-color{
+    width: 30%;
+  }
+}
